@@ -1,1 +1,241 @@
-/* Escreva seu código aqui */
+@font-face {
+    font-family: bitmap;
+    src: url(/src/fonts/VCR_OSD_MONO_1.001.ttf) format('opentype');
+  }
+
+
+body{
+    font-family: bitmap;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.6) url(/src/psedit/background.jpeg);
+    backdrop-filter: blur(2px);
+    padding-bottom: 115px;
+    background-blend-mode: darken;
+}
+h1{
+    color:#f5f5f5;
+    font-size: 50px;
+}
+#jkp{
+    display: flex;
+    border-radius: 50px;
+    width: 1200px;
+    height: 750px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
+#username {
+    width: 240px;
+    height: 60px;
+    
+    border-radius: 30px;
+    font-family: bitmap;
+    font-size: 24px;
+    padding-left: 120px;
+    
+}
+
+#yourname{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    color: #f5f5f5;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#choosebtn{
+    margin-top: 10px;
+    width: 160px;
+    height: 50px;
+    border-radius: 20px;
+    color: #f5f5f5;
+    font-family: bitmap;
+    font-size: 25px;
+    background-color: #459bb3;  
+}
+
+#choosebtn:hover{
+    background-color: #42849c;
+}
+.masterDiv {
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+}
+
+.playerDiv{
+    
+    width: 100%;
+    height: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color:#f5f5f5
+}
+.gameDiv{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.playerPick{
+    height: 85%;
+    
+}
+.playerPick h2{
+    margin-left: 43%;
+}
+
+.playerPick button {
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+    font-family: bitmap;
+    color: #f5f5f5;
+    background-color: #459bb3;
+    border-radius: 50%;
+    
+}
+
+.playerPick button:hover{
+    background-color: #42849c;
+}
+
+
+.imgSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgPedra{
+    width: 250px;
+    height: 250px;
+    margin-top: 75px;
+    margin-left: 40px;
+}
+
+.imgPapel{
+    width: 250px;
+    height: 250px;
+    margin-top: 75px;
+    margin-left: 40px;
+}
+.imgTesoura{
+    width: 250px;
+    height: 250px;
+    margin-top: 75px;
+    margin-left: 40px;
+}
+
+.botaoPedra{
+    margin-left: 35%;
+}
+
+.botaoPapel, .botaoTesoura{
+    margin-left: 10px;
+}
+
+
+.chooseButton {
+    border-radius: 20px !important;
+    width: 250px !important;
+    height: 50px !important;
+    margin-left: 39%!important;
+    margin-top: 80px !important;
+    font-size: 25px !important;
+ }
+
+ #imgPedraGameDiv, #imgTesouraGameDiv, #imgPapelGameDiv {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+ }
+
+ .imgPedraReverse, .imgPapelReverse, .imgTesouraReverse{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: -30px;
+ }
+
+ .imgVersus{
+     width: 350;
+     height: 350;
+     margin-bottom: 50px;
+     margin-left:  -100px;
+ }
+
+ .playerNameTitle{
+     width: 200px;
+     margin:0;
+     padding:0;
+ }
+ .imgInterrogacao{
+     width: 300px;
+     height: 300px;
+    margin-bottom: 100px;
+ }
+
+ .winCountDiv{
+     width: 120px;
+     height: 30px;
+ }
+ .vitorias{
+     width: 120px;
+     margin:0;
+     padding:0;
+    margin-left: 580px;
+    margin-right: 10px;
+ }
+ .derrotas{
+    width: 120px;
+    margin:0;
+    padding:0;
+    margin-right: 10px;   
+}
+
+.empates{
+    width: 120px;
+    margin:0;
+    padding:0;
+}
+
+.playerNameDiv {
+    display: flex;
+}
+
+.botaoJogar{
+    width: 350px;
+    height: 100px;
+    font-size: 50px;
+    font-family: bitmap;
+    color: #f5f5f5;
+    background-color: #459bb3;
+    border-radius: 20px;
+    margin-left: 30%;
+}
+
+.botaoJogar:hover{
+    background-color: #42849c;
+}
+
